@@ -106,56 +106,39 @@
      border-radius: 100%;
      margin-right: 10px;
      }
-        
- .lightblue-background {
-     color: white;
-     font-size: 0.6rem;
-     background-color: #45abea;
-     padding: 8px;
-     border-radius: 15px;
- }
 
- .blue-background {
+ .label {
     color: white;
     font-size: 0.6rem;
-    background-color: #9c72e4;
-    padding: 8px;
-    border-radius: 15px;
-}
-
- .green-background {
-    color: white;
-    font-size: 0.6rem;
-    background-color: #64c0a9;
-    padding: 8px;
-    border-radius: 15px;
-
- }
-
- .orange-background {
-    color: white;
-    font-size: 0.6rem;
-    background-color: #f29e33;
     padding: 8px;
     border-radius: 15px;
     }
+ 
+    .lightblue {
+     background-color: #45abea;
+    }
+ 
+ .blue {
+    background-color: #9c72e4;
+    }
 
- .pink-background {
-    color: white;
+ .green {
+    background-color: #64c0a9;
+    }
+ 
+ .orange {
+     background-color: #f29e33;
+    }
+
+ .pink {
     font-size: 0.6rem;
     background-color: #d863a1;
-    padding: 8px;
-    border-radius: 15px; 
- }
+    }
+     
 
- .darkgreen-background {
-    color: white;
-    font-size: 0.6rem;
-    background-color: #b0c926;
-    padding: 8px;
-    border-radius: 15px;
- }
-
+ .darkgreen {
+    background-color: #b0c926; 
+    }
 
 
 

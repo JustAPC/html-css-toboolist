@@ -9,12 +9,12 @@
  body {
     font-family: Arial, sans-serif;
     background-color: #f6f8f9;
-  }
+    }
 
  header{
     height: 70px;
     background-color: white;
-  }
+    }
 
  #logo-boolean {
     margin-left: 15px;
@@ -33,13 +33,18 @@
     width: 50px;
     }
 
- main{
+ .workspace{
     width: 70%;
     margin: 30px auto;
     background-color: white;
     border-radius: 1%;
     height: 700px;
-}
+    }
+
+ section{
+    margin-left: 7%;
+    padding-top: 4%;
+    }
 
  #add-task{
     font-size: 0.8rem;
@@ -48,9 +53,7 @@
     border: 1px solid #d4d9dc;
     border-radius: 10%;
     padding: 5px;
-    margin: auto;
-    
-}
+    }
 
  #add-section{
     font-size: 0.8rem;
@@ -59,22 +62,65 @@
     border: 1px solid #d4d9dc;
     border-radius: 10%;
     padding: 5px;
- }
+    }
 
  hr{ 
-    margin: 30px 0;
+    margin: 15px 0;
     border: 1px solid #f6f8f9;
- }
+    }
  
  .goals::before {
      content: "\25BC";
      height: 5px;
- }
+    }
 
  .goals {
      color: #5f636a;
+    }
+
+  h3 {
+    display: inline-block;
+    margin-bottom: 10px;
+    }
+
+  .paragrafo {
+      margin-bottom: 20px;
+  }  
+
+ .checkmark::before {
+     content: "\2714";
+     font-size: 0.7rem;
+     padding: 2px;
+     color: #ceece6;
+     border: 3px solid #ceece6;
+     border-radius: 100%;
+     margin-right: 10px;
+    }
+
+ .lightblue-background {
+     color: white;
+     font-size: 0.6rem;
+     background-color: #45abea;
+     padding: 8px;
+     border-radius: 15px;
  }
 
- h3{display: inline-block;}
+ .blue-background {
+    color: white;
+    font-size: 0.6rem;
+    background-color: #9c72e4;
+    padding: 8px;
+    border-radius: 15px;
+}
 
- 
+.cross::before {
+    content: "\2716";
+    font-size: 0.7rem;
+    padding: 2px;
+    color: red;
+    border: 3px solid red;
+    border-radius: 100%;
+    margin-right: 10px;
+    }
+
+

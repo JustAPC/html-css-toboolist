@@ -6,17 +6,17 @@
     }
 /* Reset */
 
-body {
+ body {
     font-family: Arial, sans-serif;
     background-color: #f6f8f9;
   }
 
-header{
+ header{
     height: 70px;
     background-color: white;
   }
 
-#logo-boolean {
+ #logo-boolean {
     margin-left: 15px;
     height: 50px;
     width: 50px;
@@ -24,7 +24,7 @@ header{
     vertical-align: middle;
     }
 
-header > span {
+ header > span {
     font-size: 2rem;
     text-align: center;
     line-height: 70px;
@@ -32,3 +32,49 @@ header > span {
     height: 50px;
     width: 50px;
     }
+
+ main{
+    width: 70%;
+    margin: 30px auto;
+    background-color: white;
+    border-radius: 1%;
+    height: 700px;
+}
+
+ #add-task{
+    font-size: 0.8rem;
+    color: white;
+    background-color: #47adf1;
+    border: 1px solid #d4d9dc;
+    border-radius: 10%;
+    padding: 5px;
+    margin: auto;
+    
+}
+
+ #add-section{
+    font-size: 0.8rem;
+    color: #d4d9dc;
+    background-color: white;
+    border: 1px solid #d4d9dc;
+    border-radius: 10%;
+    padding: 5px;
+ }
+
+ hr{ 
+    margin: 30px 0;
+    border: 1px solid #f6f8f9;
+ }
+ 
+ .goals::before {
+     content: "\25BC";
+     height: 5px;
+ }
+
+ .goals {
+     color: #5f636a;
+ }
+
+ h3{display: inline-block;}
+
+ 

@@ -46,35 +46,34 @@
     padding-top: 4%;
     }
 
- #add-task{
+ .button{
     font-size: 0.8rem;
-    color: white;
-    background-color: #47adf1;
     border: 1px solid #d4d9dc;
     border-radius: 10%;
     padding: 5px;
     }
-
- #add-section{
-    font-size: 0.8rem;
+ 
+ .add-task {
+    background-color: #47adf1;
+    color: white;
+    }
+ 
+ .add-section {
     color: #d4d9dc;
     background-color: white;
-    border: 1px solid #d4d9dc;
-    border-radius: 10%;
-    padding: 5px;
     }
-
+ 
  hr{ 
     margin: 15px 0;
     border: 1px solid #f6f8f9;
     }
  
- .goals::before {
+ .programs::before {
      content: "\25BC";
      height: 5px;
     }
 
- .goals {
+ .programs {
      color: #5f636a;
     }
 
@@ -114,7 +113,7 @@
     border-radius: 15px;
     }
  
-    .lightblue {
+ .lightblue {
      background-color: #45abea;
     }
  
@@ -135,8 +134,8 @@
     background-color: #d863a1;
     }
      
-
  .darkgreen {
+
     background-color: #b0c926; 
     }
 

@@ -97,6 +97,16 @@
      margin-right: 10px;
     }
 
+ .cross::before {
+     content: "\2716";
+     font-size: 0.7rem;
+     padding: 2px;
+     color: red;
+     border: 3px solid red;
+     border-radius: 100%;
+     margin-right: 10px;
+     }
+        
  .lightblue-background {
      color: white;
      font-size: 0.6rem;
@@ -113,14 +123,31 @@
     border-radius: 15px;
 }
 
-.cross::before {
-    content: "\2716";
-    font-size: 0.7rem;
-    padding: 2px;
-    color: red;
-    border: 3px solid red;
-    border-radius: 100%;
-    margin-right: 10px;
+ .green-background {
+    color: white;
+    font-size: 0.6rem;
+    background-color: #64c0a9;
+    padding: 8px;
+    border-radius: 15px;
+
+ }
+
+ .orange-background {
+    color: white;
+    font-size: 0.6rem;
+    background-color: #f29e33;
+    padding: 8px;
+    border-radius: 15px;
     }
+
+ .pink-background {
+    color: white;
+    font-size: 0.6rem;
+    background-color: #d863a1;
+    padding: 8px;
+    border-radius: 15px; 
+ }
+
+
 
 

@@ -49,7 +49,7 @@
  .button{
     font-size: 0.8rem;
     border: 1px solid #d4d9dc;
-    border-radius: 10%;
+    border-radius: 5px;
     padding: 5px;
     }
  
@@ -68,12 +68,12 @@
     border: 1px solid #f6f8f9;
     }
  
- .programs::before {
+ .main-menu::before {
      content: "\25BC";
-     height: 5px;
+     font-size: 12px;
     }
 
- .programs {
+ .main-menu {
      color: #5f636a;
      margin-top: 10px;
     }
@@ -88,23 +88,32 @@
   }  
 
  .checkmark::before {
+     display: inline-block;
      content: "\2714";
-     font-size: 0.7rem;
-     padding: 2px;
-     color: #ceece6;
-     border: 3px solid #ceece6;
+     height: 15px;
+     width: 15px;
+     line-height: 15px;
+     text-align: center;
+     color: #2cc6ab;
+     border: 2px solid #2cc6ab;
      border-radius: 100%;
      margin-right: 10px;
+     padding: 3px;
     }
 
  .cross::before {
+     display: inline-block;
      content: "\2716";
-     font-size: 0.7rem;
+     height: 15px;
+     width: 15px;
+     line-height: 15px;
+     text-align: center;
      padding: 2px;
      color: red;
-     border: 3px solid red;
+     border: 2px solid red;
      border-radius: 100%;
      margin-right: 10px;
+     padding: 3px;
      }
 
  .label {
